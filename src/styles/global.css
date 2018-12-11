@@ -1,0 +1,17 @@
+.no-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ovh {
+  overflow: hidden;
+}
+.ova {
+  overflow: auto;
+}
+.ilb {
+  display: inline-block;
+}
+.fl {
+  float: left;
+}
