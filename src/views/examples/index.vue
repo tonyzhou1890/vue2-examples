@@ -20,10 +20,12 @@
 
 <script>
 import Markdown from '@/components/Markdown'
+import GridTable from '@/components/GridTable'
 export default {
   name: 'examples',
   components: {
-    Markdown
+    Markdown,
+    GridTable
   },
   data() {
     return {
@@ -31,6 +33,10 @@ export default {
         {
           name: 'Markdown编辑器',
           component: 'Markdown'
+        },
+        {
+          name: '网格组件',
+          component: 'GridTable'
         }
       ],
       curComponent: 'Markdown'
