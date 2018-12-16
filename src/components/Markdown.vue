@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       compiledMarkdown: '',
-      input: ''
+      input: '## Some Words'
     }
   },
   methods: {

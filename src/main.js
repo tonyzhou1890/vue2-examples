@@ -5,8 +5,10 @@ import App from './App'
 import router from './router'
 import '@/styles/reset.css'
 import '@/styles/global.css'
+import Item from '@/components/TreeItem'
 
 Vue.config.productionTip = false
+Vue.component('item', Item)
 
 /* eslint-disable no-new */
 new Vue({

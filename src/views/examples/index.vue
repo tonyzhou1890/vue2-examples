@@ -21,11 +21,13 @@
 <script>
 import Markdown from '@/components/Markdown'
 import GridTable from '@/components/GridTable'
+import Tree from '@/components/Tree'
 export default {
   name: 'examples',
   components: {
     Markdown,
-    GridTable
+    GridTable,
+    Tree
   },
   data() {
     return {
@@ -37,6 +39,10 @@ export default {
         {
           name: '网格组件',
           component: 'GridTable'
+        },
+        {
+          name: '树形视图',
+          component: 'Tree'
         }
       ],
       curComponent: 'Markdown'
@@ -62,10 +68,12 @@ export default {
   cursor: pointer;
 }
 .list-li:hover {
-  color: lightgreen;
+  color: #fff;
+  background-color: rgb(91, 165, 91);
 }
 .active-li {
-  color: green;
+  color: #fff;
+  background-color: green;
 }
 .component {
   width: calc(100% - 150px);
